@@ -151,7 +151,7 @@ router.post('/update/:id', function(req, res, next) {
     }
 })
 
-//delete post
+//Delete post
 router.get('/delete/(:id)', function(req, res, next) {
     let id = req.params.id;
 
